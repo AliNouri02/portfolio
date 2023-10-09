@@ -1,4 +1,11 @@
 {
-  "lang": "EN"
+  "lang": "EN",
+  "navbar":{
+    "name":"Ali Nouri",
+    "job":"Web Dev",
+    "about":"About",
+    "work":"Work",
+    "contact":"Contact"
+  }
  
 }
