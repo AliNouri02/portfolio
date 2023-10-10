@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
 import { menu, close, logo } from "../assets";
 
 const Navbar = ({ changeLanguage }) => {

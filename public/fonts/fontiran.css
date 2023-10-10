@@ -1,0 +1,26 @@
+@font-face {
+	font-family: IranYekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('./iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IranYekan;
+	font-style: normal;
+	font-weight: 500;  /* Assuming medium weight */
+	src: url('./iranyekanwebregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IranYekan;
+	font-style: normal;
+	font-weight: 400;
+	src: url('./iranyekanwebregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./iranyekanwebregular.ttf') format('truetype');
+}

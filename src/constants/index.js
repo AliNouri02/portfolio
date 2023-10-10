@@ -25,21 +25,7 @@ import {
   threejs,
  
 } from "../assets";
- 
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
+
 
 const services = [
   {
@@ -54,9 +40,20 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
+];
+
+const faServices = [
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "برنامه نویسی فرانت اند",
+    icon: web,
+  },
+  {
+    title: "برنامه نویس React Native",
+    icon: mobile,
+  },
+  {
+    title: "برنامه نویسی بک اند",
+    icon: backend,
   },
 ];
 
@@ -246,71 +243,5 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-const ourTeam = [
-  {
-    name: "Ali Nouri",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "bootstarp",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node js",
-        color: "blue-text-gradient",
-      },
-    ],
-    source_code_link: "https://github.com/ItGTeam/",
-  },
-  {
-    name: "Amir Rostami",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Ehsan Najafi",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
-export { services, technologies, experiences, testimonials, projects,ourTeam };
+
+export { services, faServices , technologies, experiences, testimonials, projects };
