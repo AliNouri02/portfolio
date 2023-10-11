@@ -1,13 +1,13 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import i18n from "i18next";
 
 import { styles } from "../styles";
 import { services, faServices } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { useTranslation } from "react-i18next";
-import i18n from "i18next";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[350px] w-full">

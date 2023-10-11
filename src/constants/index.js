@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -19,13 +18,15 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  
+  bootstrap,
   threejs,
- 
+
 } from "../assets";
 
+import khabarbin from "/Khabarbin.png";
+import profarm from "/Profarm.png";
+import bonkar from "/bonkar.png";
 
 const services = [
   {
@@ -67,8 +68,11 @@ const technologies = [
     icon: css,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JavaScript",
+    icon: javascript,
+  }, {
+    name: "Bootstap",
+    icon: bootstrap,
   },
   {
     name: "React JS",
@@ -180,9 +184,74 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ProFarm",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Land Profarm site to introduce and display positions and products of Profarm company.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: profarm,
+    source_code_link: "https://github.com/alinouri02/",
+  },
+  {
+    name: "Khabarbin",
+    description:
+      "Khabarbin site for quick access to news in all fields with user-friendly design.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: khabarbin,
+    source_code_link: "https://khabarbin.news/",
+  },
+  {
+    name: "Bonkar",
+    description:
+      "This application is designed with the aim of creating culture and encouraging citizens to separate wet and dry waste in the simplest possible way.      ",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bonkar,
+    source_code_link: "https://cafebazaar.ir/app/pdf.co.ir.tonekabonrecycleuser",
+  },
+];
+const faProjects = [
+  {
+    name: "پروفارم",
+    description:
+      ".سایت لندینگ پروفارم جهت معرفی و نمایش ظرفیت ها و محصولات شرکت پرو فارم.",
     tags: [
       {
         name: "react",
@@ -197,13 +266,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: profarm,
+    source_code_link: "https://github.com/alinouri02/",
   },
   {
-    name: "Job IT",
+    name: "خبربین",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "سایت خبربین برای دسترسی سریع به اخبار در تمام زمینه ها با طراحی کابر پسند.",
     tags: [
       {
         name: "react",
@@ -218,13 +287,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: khabarbin,
+    source_code_link: "https://khabarbin.news/",
   },
   {
-    name: "Trip Guide",
+    name: "اپلیکیشن بنکار",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      ".این اپلیکیشن با هدف فرهنگ سازی و تشویق شهروندان به تفکیک زباله های تر و خشک به ساده ترین شکل ممکن طراحی شده است.",
     tags: [
       {
         name: "nextjs",
@@ -239,9 +308,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bonkar,
+    source_code_link: "https://cafebazaar.ir/app/pdf.co.ir.tonekabonrecycleuser",
   },
 ];
-
-export { services, faServices , technologies, experiences, testimonials, projects };
+export { services, faProjects, faServices, technologies, experiences, testimonials, projects };
