@@ -61,7 +61,7 @@ const Navbar = ({ changeLanguage }) => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive(t("navbar.about"))}
           >
-            <a href={`#${t("navbar.about").toLowerCase()}`}>
+            <a href={`#about`}>
               {t("navbar.about")}
             </a>
           </li>
@@ -71,7 +71,7 @@ const Navbar = ({ changeLanguage }) => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive(t("navbar.work"))}
           >
-            <a href={`#${t("navbar.work").toLowerCase()}`}>
+            <a href={`#work`}>
               {t("navbar.work")}
             </a>
           </li>
@@ -81,7 +81,7 @@ const Navbar = ({ changeLanguage }) => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive(t("navbar.contact"))}
           >
-            <a href={`#${t("navbar.contact").toLowerCase()}`}>
+            <a href={`#contact`}>
               {t("navbar.contact")}
             </a>
           </li>
